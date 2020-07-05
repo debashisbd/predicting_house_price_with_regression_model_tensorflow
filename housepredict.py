@@ -8,8 +8,7 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout
 from tensorflow.keras.callbacks import EarlyStopping, LambdaCallback
 
-%matplotlib inline
-tf.logging.set_verbosity(tf.logging.ERROR)
+
 
 print('Libraries imported.')
 
